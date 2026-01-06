@@ -1,0 +1,11 @@
+{
+        "id": {"type": "number"},
+        "name": {"type": "string"},
+        "country": {"type": "string"},
+        "logo": {"type": "string"},
+        "slogan": {"type": "string"},
+        "head_quaters": {"type": "string"},
+        "website": {"type": "string"},
+        "established": {"type": "number"}
+        
+}

@@ -1,0 +1,23 @@
+{
+        "statusCode": {"type": "number"},
+        "message": {"type": "string"},
+        "result": {
+          "userName": {
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "key": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "value": {
+            "type": "string"
+          }
+        },
+        "error": {"type": ["object", "null"]}
+}

@@ -1,0 +1,2 @@
+{"launcherKey":"APIAutomation","integrationLink":{"name":"","description":"","link":"","passLogin":true},
+  "id":"APIAutomation","isIBot":false,"supportedActions":[{"key":"Launch","value":"Launch"},{"key":"Close","value":"Close"}]}

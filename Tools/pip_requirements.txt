@@ -1,0 +1,16 @@
+# This are the requirements for SystemTests code to be able to run.
+#
+# Pip might need to be updated first by running:
+#   %PYDIR%\python.exe -m pip install --upgrade pip
+#
+# Install pywin32 before to install this.
+#
+# Then use following command to install required packages:
+#   %PYDIR%\python.exe -m pip install -r pip_requirements.txt
+#
+# NOTE: The pip command needs to be run outside of SystemTests folder
+#       to avoid issues with our pylint and flake8 customized configuration
+#
+# List of packages
+py-cpuinfo==4.0.0
+

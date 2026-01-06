@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio..
+################################################################################
+
+/.vs
+*.pyc
+/Markdown Documentation/obj/Debug
+/Out/**
+/.vscode
+/Shared/onbaseAPI/onBaseKeywordsHelper.py
+/Deploy/Sanity/C10Smoketests/Out/TestResults/Deploy.Sanity.C10Smoketests
+/SetJenkinsLocal_SQLServer_Amir.bat
+/Reports
+/Screenshots
+/Configuration/OPWConfig.py

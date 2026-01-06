@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eca0e938-b413-4d63-b406-341da4fa3680" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Utility/DBOperations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utility/DataTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/RESTDEMOAPI/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/RESTDEMOAPI/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Features/ClaimsVerification.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Features/ClaimsVerification.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ClaimsVerification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ClaimsVerification.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ComnCtrl</find>
+      <find>iis</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/merge-api-framework" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tests/stepdefs/conftest.py" />
+        <option value="$PROJECT_DIR$/Tests/OPW/Features/1653_DocumentList.feature" />
+        <option value="$PROJECT_DIR$/Pages/OPW/HomePage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/FilterTabPage.py" />
+        <option value="$PROJECT_DIR$/Tests/OPW/Features/Steps/test_1653_DocumentList.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/LoginPage.py" />
+        <option value="$PROJECT_DIR$/Utility/DBOperations.py" />
+        <option value="$PROJECT_DIR$/Utility/miscUtils.py" />
+        <option value="$PROJECT_DIR$/Utility/OnBaseConfig.py" />
+        <option value="$PROJECT_DIR$/Tests/OPW/Features/Steps/conftest.py" />
+        <option value="$PROJECT_DIR$/Utility/OPWUtility/OnBaseConfig.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/ChartSearchPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/ConfidentialityCodePopupPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/ConfidentialityNotices.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/CreatePersonalListPopupPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/CreateSystemListPopupPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/DocumentPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/DocumentViewerPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/EmergencyAccessPopupPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/ErrorPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/GrantPatientAccessPopupPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/OptionsPopupPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/PatientListPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/PatientNoticesPopupPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/PatientSearchPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/PropertiesPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/RenameFilterPopupPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/ScheduledPatientSearchPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/SelectPersonalListPopupPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/SplitViewNextPage.py" />
+        <option value="$PROJECT_DIR$/Pages/OPW/SplitViewPage.py" />
+        <option value="$PROJECT_DIR$/Tests/OPW/Steps/conftest.py" />
+        <option value="$PROJECT_DIR$/Configuration/OPWConfig.py" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="534" />
+    <option name="y" value="-21" />
+    <option name="width" value="680" />
+    <option name="height" value="883" />
+  </component>
+  <component name="ProjectId" id="2N5PCPuoFIuZTWMr7vo979ZbgeN" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="healthcare_ecosystem_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthcare_ecosystem_automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthcare_ecosystem_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthcare_ecosystem_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthcare_ecosystem_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthcare_ecosystem_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthcare_ecosystem_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthcare_ecosystem_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="OPW" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthcare_ecosystem_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthcare_ecosystem_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="OPW" type="462c0819:PsiDirectoryNode" />
+              <item name="Steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in test_ReadAirlineByAirlineID.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_adminapiPOC.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Api-Automation/nilnexus_api_automation/TestData/POST_Data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Api-Automation\nilnexus_api_automation\TestData\POST_Data" />
+      <recent name="C:\Api_Framework_code\healthcare_pytest_framework\TestData\RESTDEMOAPI_TestData" />
+      <recent name="C:\Users\sundas\Desktop\healthcare_ecosystem_automation\Utility\MRMUtility" />
+      <recent name="C:\Users\sundas\Desktop\healthcare_ecosystem_automation\Utility\ROIUtility" />
+      <recent name="C:\Users\sundas\Desktop\healthcare_ecosystem_automation\Tests\ROI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sundas\Desktop\healthcare_ecosystem_automation\Utility\OPWUtility" />
+      <recent name="C:\Users\sundas\Desktop\healthcare_ecosystem_automation\Utility\ROIUtility" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in test_AccountControllerAdminapi.py">
+    <configuration name="Python tests in C:/Api-Automation/nilnexus_api_automation/Tests/RESTDEMOAPI/Steps/test_ReadAirlineByAirlineID.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="healthcare_pytest_framework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ReadAirlineByAirlineID.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_AccountControllerAdminapi.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="healthcare_pytest_framework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_AccountControllerAdminapi.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_AccountControllerAdminapi.py" />
+        <item itemvalue="Python tests.Python tests in C:/Api-Automation/nilnexus_api_automation/Tests/RESTDEMOAPI/Steps/test_ReadAirlineByAirlineID.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
+        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eca0e938-b413-4d63-b406-341da4fa3680" name="Default Changelist" comment="" />
+      <created>1674552475711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674552475711</updated>
+      <workItem from="1747806138695" duration="42671000" />
+      <workItem from="1748241704960" duration="8032000" />
+      <workItem from="1749098503048" duration="1602000" />
+      <workItem from="1749530769758" duration="2458000" />
+      <workItem from="1749629568365" duration="1596000" />
+      <workItem from="1749703986327" duration="18484000" />
+      <workItem from="1749791365437" duration="8284000" />
+      <workItem from="1750051475070" duration="15093000" />
+      <workItem from="1750076574281" duration="2874000" />
+      <workItem from="1750137334754" duration="17961000" />
+      <workItem from="1750222743306" duration="3476000" />
+      <workItem from="1750307812109" duration="5271000" />
+      <workItem from="1750395544341" duration="7172000" />
+      <workItem from="1750659207522" duration="39000" />
+      <workItem from="1757395358235" duration="76000" />
+      <workItem from="1757395446020" duration="2739000" />
+      <workItem from="1757398333950" duration="259000" />
+      <workItem from="1757399139552" duration="18264000" />
+      <workItem from="1757564310387" duration="19787000" />
+      <workItem from="1757912129095" duration="79110000" />
+      <workItem from="1758269245860" duration="1391000" />
+      <workItem from="1758274175577" duration="74831000" />
+      <workItem from="1759907130990" duration="16459000" />
+      <workItem from="1759984825059" duration="52000" />
+      <workItem from="1761624906041" duration="21000" />
+      <workItem from="1761626685141" duration="368000" />
+      <workItem from="1761628122186" duration="14373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14699684" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.29577464" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/OPW/Steps/test_1250_DocumentViewer.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/healthcare_pytest_framework$.coverage" NAME=" Coverage Results" MODIFIED="1749710751471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Pages/MRM/AdminCorrectionContextPage.py" />
+    <entry file="file://$PROJECT_DIR$/Pages/MRM/AnalystReviewNotesPage.py" />
+    <entry file="file://$PROJECT_DIR$/Pages/MRM/AnalysisPage.py" />
+    <entry file="file://$PROJECT_DIR$/Utility/MRMUtility/ComboboxUtil.py" />
+    <entry file="file://$PROJECT_DIR$/Utility/ROIUtility/ComboboxUtil.py" />
+    <entry file="file://$PROJECT_DIR$/Utility/ROIUtility/CommonUtil.py" />
+    <entry file="file://$PROJECT_DIR$/Utility/ROIUtility/DateUtil.py" />
+    <entry file="file://$PROJECT_DIR$/Utility/MRMUtility/DateUtil.py" />
+    <entry file="file://$PROJECT_DIR$/Utility/MRMUtility/TableUtil.py" />
+    <entry file="file://$PROJECT_DIR$/Utility/ROIUtility/TableUtil.py" />
+    <entry file="file://$PROJECT_DIR$/Utility/ROIUtility/WindowsServiceUtil.py" />
+    <entry file="file://$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/FilterTabPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/LoginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility/OPWUtility/DBOperations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility/OPWUtility/DataTable.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility/OPWUtility/miscUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/OPW/Features/1653_DocumentList.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/OPW/Features/Steps/test_1653_DocumentList.py" />
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/HomePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/OPW/Features/Steps/conftest.py" />
+    <entry file="file://$PROJECT_DIR$/Pages/MRM/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/ROI/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/MRM/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/ROI/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility/OPWUtility/OnBaseConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="2782" column="25" selection-start-line="2782" selection-start-column="25" selection-end-line="2782" selection-end-column="25" />
+          <folding>
+            <element signature="e#90#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility/ROIUtility/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility/MRMUtility/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/ChartSearchPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/ConfidentialityCodePopupPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/ConfidentialityNotices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/CreatePersonalListPopupPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/CreateSystemListPopupPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/DocumentPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/DocumentViewerPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/EmergencyAccessPopupPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/ErrorPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/GrantPatientAccessPopupPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/OptionsPopupPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/PatientListPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/PatientNoticesPopupPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/PatientSearchPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/PropertiesPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/RenameFilterPopupPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/ScheduledPatientSearchPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/SelectPersonalListPopupPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/SplitViewNextPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/OPW/SplitViewPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/OPW/Steps/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/OPWConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

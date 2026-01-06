@@ -1,0 +1,4 @@
+{"name":"API","launcher":[{"key":"Nil","value":"Nil"}],"locations":[{"key":"BCC","value":"BCC"}],
+  "subspecialty":[{"key":"85195493-54fe-ef11-bc40-00505690d83d","value":"BODY"}],
+  "examCode":[{"key":"001","value":"001 - TEST"}],"modality":[{"key":"AS","value":"Angioscopy"}],
+  "statuses":[{"key":"C","value":"C"}],"aiResults":[{"key":"Normal","value":"Normal"}]}

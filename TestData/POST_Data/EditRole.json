@@ -1,0 +1,4 @@
+{"name":"ApiAutomation","canRename":true,"canDelete":true,"canEditClaims":true,"canClone":true,
+  "id":"0ea0b591-8cb6-41e8-af36-f45fa90df265","claims":[{"key":"Audit","value":"Audit"},{"key":"Export","value":"Export"},
+  {"key":"CredentialsExport","value":"CredentialsExport"},{"key":"ConfigurationSettingRead","value":"ConfigurationSettingRead"},
+  {"key":"ConfigurationSettingCreate","value":"ConfigurationSettingCreate"}]}

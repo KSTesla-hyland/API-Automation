@@ -1,0 +1,4 @@
+{"name":"API","claims":[{"key":"Audit","value":"Audit","description":"Access to run audit queries"},
+  {"key":"Export","value":"Export","description":"Allows user to access and export values from the importer/exporter tool"},
+  {"key":"CredentialsExport","value":"CredentialsExport"},{"key":"ConfigurationSettingRead","value":"ConfigurationSettingRead","description":"Allows user to read global configurations"},
+  {"key":"ConfigurationSettingCreate","value":"ConfigurationSettingCreate","description":"Allows user to create global configurations"}]}

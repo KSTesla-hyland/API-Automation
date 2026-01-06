@@ -1,0 +1,5 @@
+{"name":"tyh","isDefault":"gjh","config":{"persistentSorting":" ","timerStatSorting":" ","order":["timer","statusString","status",
+  "patientID","patientClass","lockedByID","priority","accessionNumber","patientFullName","patientSex","location","description",
+  "orderingPhysician","examCodes","completionDate","updatedAt","examID","mrn","patientDateOfBirth","sla","readBy",
+  "patientLastName","history","patientFirstName","modalities","siUID","bodyPartExamined","aiResults","flag","resident",
+  "assignedRadiologists","patientLocation","age"]}}

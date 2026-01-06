@@ -1,0 +1,44 @@
+{
+    "statusCode": {
+      "type": "number"
+    },
+    "message": {
+      "type": "string"
+    },
+    "result": {
+      "type": "object",
+      "properties": {
+        "applicationUserId": {
+          "type": "string"
+        },
+        "userName": {
+          "type": "string"
+        },
+        "roles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "claims": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "isPasswordChangedByFirstLogin": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "applicationUserId",
+        "userName",
+        "roles",
+        "claims",
+        "isPasswordChangedByFirstLogin"
+      ]
+    },
+    "error": {
+      "type": ["null", "string"]
+    }
+  }

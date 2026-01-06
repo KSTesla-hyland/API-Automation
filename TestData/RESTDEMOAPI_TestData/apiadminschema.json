@@ -1,0 +1,48 @@
+{
+        "statusCode": {"type": "number"},
+        "message": {"type": "string"},
+        "result": {
+          "language": {
+            "type": "string"
+          },
+          "branding": {
+            "type": "string"
+          },
+          "applicationTitle": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "serverTimeMaxDiff": {
+            "type": "number"
+          },
+          "useSSO": {
+            "type": "boolean"
+          },
+          "appUrls": {
+            "adminApi": {
+              "type": "string"
+            },
+            "adminFront": {
+              "type": "string"
+            },
+            "analytics": {
+              "type": "string"
+            },
+            "chatFront": {
+              "type": "string"
+            },
+            "notificator": {
+              "type": "string"
+            },
+            "uWLApi": {
+              "type": "string"
+            },
+            "uWLFront": {
+              "type": "string"
+            }
+          }
+        },
+        "error": {"type": ["object", "null"]}
+}

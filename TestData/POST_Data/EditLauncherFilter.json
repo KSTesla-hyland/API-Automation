@@ -1,0 +1,4 @@
+{"name":"ApiAutomation","id":"9243a307-23a8-f011-bc41-00505690f079","statuses":[{"key":"C","value":"C"}],
+  "aiResults":[{"key":"Normal","value":"Normal"}],"examCode":[{"key":"001","value":"TEST"}],"examProvider":[],
+  "locations":[{"key":"BCC","value":"BCC"}],"launcher":[{"key":"Nil","value":"Launch,Shutdown,Close"}],
+  "modality":[{"key":"AS","value":"Angioscopy"}],"subspecialty":[{"key":"85195493-54fe-ef11-bc40-00505690d83d","value":"BODY"}]}
