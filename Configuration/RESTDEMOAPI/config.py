@@ -15,6 +15,12 @@ class ConfigData:
 
     BASE_URL_AUTH = "https://adminapi.nilnexus.com/"
 
+    ############################################################
+    #              NilRead 25 API Details                      #
+    ############################################################
+
+    BASE_URL_NILREAD = "https://nilread.nilnexus.com/"
+
     CONTENT_TYPE_AUTH = "application/json; charset=utf-8"
     rememberMe = "true"
 

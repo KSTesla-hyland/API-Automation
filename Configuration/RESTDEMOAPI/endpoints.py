@@ -101,6 +101,13 @@ class Endpoints:
     subspecialtyView = "api/Subspecialty/85195493-54fe-ef11-bc40-00505690d83d"
     subspecialtyCreate = "api/Subspecialty"
 
+    ############################################################
+    #              NilRead 25 Bookmark Endpoints               #
+    ############################################################
+
+    BookmarkView = "api/Bookmark"
+    BookmarkForget = "api/Bookmark/forget"
+
 
 
 
