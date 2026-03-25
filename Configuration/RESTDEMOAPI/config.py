@@ -22,7 +22,7 @@ class ConfigData:
     #    DATABASE LEVEL DETAILS                                #
     ############################################################
 
-    DB_SERVER_NAME = "NilNexusVM4\SQLSERVER2K22"
+    DB_SERVER_NAME = "NilTESTVM4\SQLSERVER2K22"
 
     DB_USERID = "sa"
 

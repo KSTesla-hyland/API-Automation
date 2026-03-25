@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca0e938-b413-4d63-b406-341da4fa3680" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Utility/DBOperations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utility/DataTable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Configuration/RESTDEMOAPI/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/RESTDEMOAPI/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Features/ClaimsVerification.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Features/ClaimsVerification.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ClaimsVerification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ClaimsVerification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/DBOperations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/DBOperations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,26 +138,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests in test_ReadAirlineByAirlineID.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_adminapiPOC.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Api-Automation/nilnexus_api_automation/TestData/POST_Data&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in test_ReadAirlineByAirlineID.py.executor": "Run",
+    "Python tests.Python tests in test_adminapiPOC.py.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/API Automation code/API-Automation",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Api-Automation\nilnexus_api_automation\TestData\POST_Data" />
@@ -217,8 +215,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
-        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
       </set>
     </attachedChunks>
   </component>
