@@ -1,7 +1,7 @@
 import pyodbc
 import sys
 import os
-from Configuration.RESTDEMOAPI.config import ConfigData
+from Configuration.ADMIN.config import ConfigData
 sys.path.append(os.getcwd())
 
 class DbOperations:

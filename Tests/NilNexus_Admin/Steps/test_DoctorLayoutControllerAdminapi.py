@@ -5,23 +5,23 @@ from pytest_bdd import scenarios, then, given, parsers
 import sys
 import os
 
-from Configuration.RESTDEMOAPI import passwordreset
-from Configuration.RESTDEMOAPI.config import ConfigData
-from Configuration.RESTDEMOAPI.endpoints import Endpoints
-from Configuration.RESTDEMOAPI.passwordreset import PasswordReset
-from Tests.RESTDEMOAPI.Steps.conftest import get_update_token
-from Utility.APIUtility.RESTDEMOAPI.RESTResponseUtils import RESTResponseUtils
+from Configuration.ADMIN import passwordreset
+from Configuration.ADMIN.config import ConfigData
+from Configuration.ADMIN.endpoints import Endpoints
+from Configuration.ADMIN.passwordreset import PasswordReset
+from Tests.NilNexus_ADMIN.Steps.conftest import get_update_token
+from Utility.APIUtility.ADMIN.RESTResponseUtils import RESTResponseUtils
 
 sys.path.append(os.getcwd())
 
 from Utility.miscUtils import miscUtils
-from Utility.APIUtility.RESTDEMOAPI.RESTRequestUtils import RESTRequestUtils
+from Utility.APIUtility.ADMIN.RESTRequestUtils import RESTRequestUtils
 
 scenarios("../Features/DoctorLayoutController_Adminapi.feature")
 global Doctorlayout
 @then(parsers.parse('verify response schema is valid'))
 def reset_password_schema(api_respone_context):
-    assert RESTResponseUtils().json_schema_validator("TestData/RESTDEMOAPI_TestData/adminresetpassword.json",
+    assert RESTResponseUtils().json_schema_validator("TestData/ADMIN_TestData/adminresetpassword.json",
                                                      api_respone_context.get_response_content())
 
 @given(parsers.parse('User hits post api for "{endpointname}" of apiadmin'))

@@ -6,14 +6,86 @@
   <component name="ChangeListManager">
     <list default="true" id="eca0e938-b413-4d63-b406-341da4fa3680" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration/RESTDEMOAPI/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/RESTDEMOAPI/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Features/ClaimsVerification.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Features/ClaimsVerification.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/RESTDEMOAPI/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/ADMIN/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/RESTDEMOAPI/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/ADMIN/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/RESTDEMOAPI/endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/ADMIN/endpoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/RESTDEMOAPI/passwordreset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/ADMIN/passwordreset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/RESTDEMOAPI_TestData/AnalyticsLocationsdropdown.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ADMIN_TestData/AnalyticsLocationsdropdown.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/RESTDEMOAPI_TestData/AnalyticsUsersdropdown.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ADMIN_TestData/AnalyticsUsersdropdown.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/RESTDEMOAPI_TestData/SampleJSONSchema.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ADMIN_TestData/SampleJSONSchema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/RESTDEMOAPI_TestData/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ADMIN_TestData/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/RESTDEMOAPI_TestData/adminresetpassword.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ADMIN_TestData/adminresetpassword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/RESTDEMOAPI_TestData/apiadminschema.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ADMIN_TestData/apiadminschema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/RESTDEMOAPI_TestData/permissions.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/ADMIN_TestData/permissions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Features/AccountController_Adminapi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Features/AccountController_Adminapi.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_AccountControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_AccountControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_AnalyticsControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_AnalyticsControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_AnalyticsDropDownControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_AnalyticsDropDownControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_AuditControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_AuditControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ClaimsVerification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ClaimsVerification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ConfigControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ConfigControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_DispatcherLogsControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_DispatcherLogsControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_DoctorLayoutControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_DoctorLayoutControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ExamCodeControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ExamCodeControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_FolderControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_FolderControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_GeographyControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_GeographyControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_GroupControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_GroupControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_InsuranceCodeControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_InsuranceCodeControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_LauncherControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_LauncherControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_LauncherFilterControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_LauncherFilterControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ModalityControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_ModalityControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_PhysiciansControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_PhysiciansControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_RoleControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_RoleControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_SubspecialityControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_SubspecialityControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_priorityControllerAdminapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/test_priorityControllerAdminapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/APIUtility/RESTDEMOAPI/RESTRequestUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/APIUtility/ADMIN/RESTRequestUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/APIUtility/RESTDEMOAPI/RESTResponseUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/APIUtility/ADMIN/RESTResponseUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/CommonAPIUtility/RESTRequestUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/CommonAPIUtility/RESTRequestUtils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utility/DBOperations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/DBOperations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="ad13e893-1891-4613-8054-6cae1674895d" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="33cdfefe-cd35-43c1-9fa1-63471d0534ef" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="status" value="Completed" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="ad13e893-1891-4613-8054-6cae1674895d" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Api-Automation/API-Automation" value="2N5PCPuoFIuZTWMr7vo979ZbgeN" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="agent-panel" value="Auto" />
+      <entry key="chat-panel" value="Auto" />
+    </selectedModels>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,6 +164,20 @@
     <option name="height" value="883" />
   </component>
   <component name="ProjectId" id="2N5PCPuoFIuZTWMr7vo979ZbgeN" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -138,27 +224,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests in test_ReadAirlineByAirlineID.py.executor": "Run",
-    "Python tests.Python tests in test_adminapiPOC.py.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/API Automation code/API-Automation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in test_ReadAirlineByAirlineID.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_adminapiPOC.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Api-Automation/API-Automation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Api-Automation\nilnexus_api_automation\TestData\POST_Data" />
@@ -173,7 +259,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests in test_AccountControllerAdminapi.py">
-    <configuration name="Python tests in C:/Api-Automation/nilnexus_api_automation/Tests/RESTDEMOAPI/Steps/test_ReadAirlineByAirlineID.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in C:/Api-Automation/API-Automation/Tests/RESTDEMOAPI/Steps/test_ReadAirlineByAirlineID.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="healthcare_pytest_framework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,14 +294,15 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test_AccountControllerAdminapi.py" />
-        <item itemvalue="Python tests.Python tests in C:/Api-Automation/nilnexus_api_automation/Tests/RESTDEMOAPI/Steps/test_ReadAirlineByAirlineID.py" />
+        <item itemvalue="Python tests.Python tests in C:/Api-Automation/API-Automation/Tests/RESTDEMOAPI/Steps/test_ReadAirlineByAirlineID.py" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-PY-252.28539.58" />
+        <option value="bundled-python-sdk-3d8931ec2368-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28539.58" />
       </set>
     </attachedChunks>
   </component>
@@ -257,6 +344,12 @@
       <workItem from="1761624906041" duration="21000" />
       <workItem from="1761626685141" duration="368000" />
       <workItem from="1761628122186" duration="14373000" />
+      <workItem from="1779276017130" duration="606000" />
+      <workItem from="1779276702208" duration="201000" />
+      <workItem from="1779276995878" duration="6729000" />
+      <workItem from="1780555983293" duration="3587000" />
+      <workItem from="1780565257294" duration="16566000" />
+      <workItem from="1780982622154" duration="9572000" />
     </task>
     <servers />
   </component>
@@ -311,6 +404,11 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Tests/OPW/Steps/test_1250_DocumentViewer.py</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/RESTDEMOAPI/Steps/conftest.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -624,5 +722,13 @@
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

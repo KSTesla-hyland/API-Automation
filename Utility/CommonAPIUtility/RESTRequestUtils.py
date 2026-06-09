@@ -5,7 +5,7 @@ from requests import HTTPError, Timeout
 
 sys.path.append(os.getcwd())
 
-from Configuration.RESTDEMOAPI.config import ConfigData
+from Configuration.ADMIN.config import ConfigData
 
 
 class CommonRESTRequestUtils:

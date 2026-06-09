@@ -2,7 +2,7 @@ import os
 import sys
 
 sys.path.append(os.getcwd())
-from Configuration.RESTDEMOAPI.config import ConfigData
+from Configuration.ADMIN.config import ConfigData
 from Utility.CommonAPIUtility.RESTRequestUtils import CommonRESTRequestUtils
 
 class RESTRequestUtils(CommonRESTRequestUtils):

@@ -7,7 +7,7 @@ Feature: This feature is to verify API status of account controller of admin api
 		Then verify status should be "200"
 		Then verify permission response schema is valid
 		Then verify response "Message" should be "Success"
-		Then verify the content length is "4158"
+		Then verify the content length is "4187"
 		Then verify the response time
 		Examples:
 			| appname | app_name | user_name | username | password | encodedPassword |
@@ -20,7 +20,7 @@ Feature: This feature is to verify API status of account controller of admin api
 		Then verify status should be "200"
 		Then verify permission response schema is valid
 		Then verify response "Message" should be "Success"
-		Then verify the content length is "1302"
+		Then verify the content length is "1379"
 		Then verify the response time
 		Examples:
 			| appname | app_name | user_name | username | password | encodedPassword |
@@ -33,7 +33,7 @@ Feature: This feature is to verify API status of account controller of admin api
 		Then verify status should be "200"
 		Then verify permission response schema is valid
 		Then verify response "Message" should be "Success"
-		Then verify the content length is "4232"
+		Then verify the content length is "4261"
 		Then verify the response time
 		Examples:
 			| appname | app_name | user_name | username | password | encodedPassword |
@@ -59,7 +59,7 @@ Feature: This feature is to verify API status of account controller of admin api
 		Then verify status should be "200"
 		Then verify permission response schema is valid
 		Then verify response "Message" should be "Success"
-		Then verify the content length is "2198"
+		Then verify the content length is "2168"
 		Then verify the response time
 		Examples:
 			| appname | app_name | user_name | username | password | encodedPassword |
@@ -171,56 +171,11 @@ Feature: This feature is to verify API status of account controller of admin api
 		Examples:
 			| appname | app_name | user_name | username | password | encodedPassword |
 			|app_name|Admin|username|systemadmin|encodedPassword|SHkxQGFuZE5O|
-
-	@adminapi @accountcontroller @applaunch @Imaginingprovider
-	Scenario Outline: Verify app launch api for Imagining provider
-		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
-		Given User hits get api for "AppLaunch" of apiadmin
-		Then verify status should be "200"
-		Then verify the response time
-		Examples:
-			| appname | app_name | user_name | username | password | encodedPassword |
-			|app_name|Admin|username|user1|encodedPassword|VGVzdEAxMjM=|
-
-	@adminapi @accountcontroller @applaunch @systemapiadmin
-	Scenario Outline: Verify app launch api for systemapiadmin
-		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
-		Given User hits get api for "AppLaunch" of apiadmin
-		Then verify status should be "200"
-		Then verify the response time
-		Examples:
-			| appname | app_name | user_name | username | password | encodedPassword |
-			|app_name|Admin|username|systemapiadmin|encodedPassword|U0t5WDB5Xngjcjh6YVEz|
-
-	@adminapi @accountcontroller @applaunch @Scheduler
-	Scenario Outline: Verify app launch api for Scheduler
-		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
-		Given User hits get api for "AppLaunch" of apiadmin
-		Then verify status should be "200"
-		Then verify the response time
-		Examples:
-			| appname | app_name | user_name | username | password | encodedPassword |
-			|app_name|Admin|username|SC|encodedPassword|VGVzdEAxMjM=|
-
-	@adminapi @accountcontroller @applaunch @Technologist
-	Scenario Outline: Verify app launch api for Technologist
-		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
-		Given User hits get api for "AppLaunch" of apiadmin
-		Then verify status should be "200"
-		Then verify the response time
-		Examples:
-			| appname | app_name | user_name | username | password | encodedPassword |
-			|app_name|Admin|username|Techno|encodedPassword|VGVzdEAxMjM=|
-
-	@adminapi @accountcontroller @applaunch @OptimizerAdmin
-	Scenario Outline: Verify app launch api for OptimizerAdmin
-		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
-		Given User hits get api for "AppLaunch" of apiadmin
-		Then verify status should be "200"
-		Then verify the response time
-		Examples:
-			| appname | app_name | user_name | username | password | encodedPassword |
-			|app_name|Admin|username|OA|encodedPassword|VGVzdEAxMjM=|
+            |app_name|Admin|username|user1|encodedPassword|VGVzdEAxMjM=|
+            |app_name|Admin|username|systemapiadmin|encodedPassword|U0t5WDB5Xngjcjh6YVEz|
+            |app_name|Admin|username|SC|encodedPassword|VGVzdEAxMjM=|
+            |app_name|Admin|username|OA|encodedPassword|VGVzdEAxMjM=|
+            |app_name|Admin|username|Techno|encodedPassword|VGVzdEAxMjM=|
 
 	@adminapi @accountcontroller @appclose @systemadmin
 	Scenario Outline: Verify admin close api for systemadmin
@@ -231,58 +186,13 @@ Feature: This feature is to verify API status of account controller of admin api
 		Examples:
 			| appname | app_name | user_name | username | password | encodedPassword |
 			|app_name|Admin|username|systemadmin|encodedPassword|SHkxQGFuZE5O|
+            |app_name|Admin|username|user1|encodedPassword|VGVzdEAxMjM=|
+            |app_name|Admin|username|systemapiadmin|encodedPassword|U0t5WDB5Xngjcjh6YVEz|
+            |app_name|Admin|username|SC|encodedPassword|VGVzdEAxMjM=|
+            |app_name|Admin|username|OA|encodedPassword|VGVzdEAxMjM=|
+            |app_name|Admin|username|Techno|encodedPassword|VGVzdEAxMjM=|
 
-	@adminapi @accountcontroller @appclose @Imaginingprovider
-	Scenario Outline: Verify admin close api for Imagining provider
-		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
-		Given User hits get api for "CloseApp" of apiadmin
-		Then verify status should be "200"
-		Then verify the response time
-		Examples:
-			| appname | app_name | user_name | username | password | encodedPassword |
-			|app_name|Admin|username|user1|encodedPassword|VGVzdEAxMjM=|
-
-	@adminapi @accountcontroller @appclose @systemapiadmin
-	Scenario Outline: Verify admin close api for systemapiadmin
-		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
-		Given User hits get api for "CloseApp" of apiadmin
-		Then verify status should be "200"
-		Then verify the response time
-		Examples:
-			| appname | app_name | user_name | username | password | encodedPassword |
-			|app_name|Admin|username|systemapiadmin|encodedPassword|U0t5WDB5Xngjcjh6YVEz|
-
-	@adminapi @accountcontroller @appclose @Scheduler
-	Scenario Outline: Verify admin close api for Scheduler
-		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
-		Given User hits get api for "CloseApp" of apiadmin
-		Then verify status should be "200"
-		Then verify the response time
-		Examples:
-			| appname | app_name | user_name | username | password | encodedPassword |
-			|app_name|Admin|username|SC|encodedPassword|VGVzdEAxMjM=|
-
-	@adminapi @accountcontroller @appclose @OptimizerAdmin
-	Scenario Outline: Verify admin close api for OptimizerAdmin
-		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
-		Given User hits get api for "CloseApp" of apiadmin
-		Then verify status should be "200"
-		Then verify the response time
-		Examples:
-			| appname | app_name | user_name | username | password | encodedPassword |
-			|app_name|Admin|username|OA|encodedPassword|VGVzdEAxMjM=|
-
-	@adminapi @accountcontroller @appclose @Technologist
-	Scenario Outline: Verify admin close api for Technologist
-		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
-		Given User hits get api for "CloseApp" of apiadmin
-		Then verify status should be "200"
-		Then verify the response time
-		Examples:
-			| appname | app_name | user_name | username | password | encodedPassword |
-			|app_name|Admin|username|Techno|encodedPassword|VGVzdEAxMjM=|
-
-	@adminapi @accountcontroller @logout @systemadmin @16
+	@adminapi @accountcontroller @logout @systemadmin
 	Scenario Outline: Verify admin logout api for systemadmin
 		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
 		Given User hits get api for "Logout" of apiadmin
@@ -438,7 +348,7 @@ Feature: This feature is to verify API status of account controller of admin api
 			| appname | app_name | user_name | username | password | encodedPassword |
 			|app_name|Admin|username|Techno|encodedPassword|VGVzdEAxMjM=|
 
-	@adminapi @accountcontroller @correctupdatetoken @systemadmin
+	@adminapi @accountcontroller @correctupdatetoken @systemadmin @1
 	Scenario Outline: Verify that update token is getting generated for systemadmin
 		Given user with "<appname>" as "<app_name>", "<user_name>" as "<username>","<password>" as "<encodedPassword>"
 		Given User hits Correct Update token post api for "UpdateToken" of apiadmin

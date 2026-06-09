@@ -7,12 +7,13 @@ import requests
 from allure_commons import fixture
 from pytest_bdd import given, parsers, scenarios, then
 
-from Configuration.RESTDEMOAPI.config import ConfigData
-from Configuration.RESTDEMOAPI.endpoints import Endpoints
+from Configuration.ADMIN.config import ConfigData
+from Configuration.ADMIN.endpoints import Endpoints
+from Utility.CommonAPIUtility.RESTRequestUtils import CommonRESTRequestUtils
 from Utility.DBOperations import DbOperations
 from Utility.miscUtils import miscUtils
-from Utility.APIUtility.RESTDEMOAPI.RESTRequestUtils import RESTRequestUtils
-from Utility.APIUtility.RESTDEMOAPI.RESTResponseUtils import Response, RESTResponseUtils
+from Utility.APIUtility.ADMIN.RESTRequestUtils import RESTRequestUtils
+from Utility.APIUtility.ADMIN.RESTResponseUtils import Response, RESTResponseUtils
 
 
 sys.path.append(os.getcwd())
@@ -32,7 +33,7 @@ def test_data_store():
     return {}
 
 @pytest.fixture(scope="function")
-def get_bearer_token(request):
+def get_bearer_token(request, test_data_store):
     # Get credentials from the scenario
     creds = getattr(request.node, 'user_credentials', None)
     if not creds:
@@ -65,17 +66,18 @@ def api_request_context_auth(get_bearer_token):
     token_value = miscUtils.get_nested_value(parsed_response, ["result", "token", "token"])
     request_context_auth.headers["Authorization"] = f"Bearer {token_value}"
     RESTRequestUtils().addorupdateheader(request_context_auth, "Authorization", f"Bearer {token_value}")
-    request_context_auth.close()
+    RESTRequestUtils().addorupdateheader(request_context_auth, "origin", "https://admin.nilnexus.com")
     yield request_context_auth
 
 @pytest.fixture()
 def get_update_token(get_bearer_token):
     parsed_response = RESTResponseUtils().parseJSONbodyToDictionary(get_bearer_token)
     token_value = miscUtils.get_nested_value(parsed_response, ["result", "token", "token"])
-    refresh_token = miscUtils.get_nested_value(parsed_response, ["result", "token", "refreshToken"])
+    print(token_value)
+    #refresh_token = miscUtils.get_nested_value(parsed_response, ["result", "token", "refreshToken"])
     update_token= {
         "token": token_value,
-        "refreshToken": refresh_token,
+        #"refreshToken": refresh_token,
     }
     return update_token
 
@@ -86,16 +88,15 @@ def api_respone_context():
 
 
 @pytest.fixture()
-def get_bad_update_token(get_bearer_token):
+def get_bad_update_token(get_bearer_token,test_data_store):
     parsed_response = RESTResponseUtils().parseJSONbodyToDictionary(get_bearer_token)
     token_value = miscUtils.get_nested_value(parsed_response, ["result", "token", "token"])
-    refresh_token = miscUtils.get_nested_value(parsed_response, ["result", "token", "refreshToken"])
+    # refreshToken intentionally omitted for negative test case
     update_token= {
         "token": token_value,
-        "refreshToken": refresh_token,
+        # "refreshToken": refresh_token,
     }
-    update_token_json= json.dumps(update_token)
-    return update_token_json
+    return update_token
 
 @given(parsers.parse('User hits get api for "{endpointname}" of apiadmin'))
 def user_hit_get_api(api_request_context_auth, api_respone_context, endpointname):
